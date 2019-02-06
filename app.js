@@ -30,6 +30,7 @@ const converter = (temp, convertFrom, convertTo) => {
         result = (temp - 32) * 5/9;
     }
 
-    return result;
+    // return to 4 decimal places
+    return result.toFixed(4);
 
 };
